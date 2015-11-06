@@ -10,7 +10,7 @@
 # compass_config do |config|
 #   config.output_style = :compact
 # end
-Haml::Template.options[:ugly] = true
+# Haml::Template.options[:ugly] = true
 
 ###
 # Page options, layouts, aliases and proxies
@@ -52,8 +52,12 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
+# livereload
+activate :livereload
+
 # Build-specific configuration
 configure :build do
+
   # For example, change the Compass output style for deployment
   # activate :minify_css
 

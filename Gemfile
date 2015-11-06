@@ -1,5 +1,6 @@
-source :rubygems
+source 'https://rubygems.org'
 
-gem "middleman", "~>3.0.5"
+gem "middleman"
+gem "middleman-livereload"
 gem "pry"
 gem "rake"

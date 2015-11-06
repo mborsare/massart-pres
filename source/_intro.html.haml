@@ -1,0 +1,20 @@
+%section
+  %section
+    %h1 Hello!
+    %h1 Who am I?
+    %h1
+      I’m
+      %span.myname.cyan Mike.
+
+  %section#intro
+    %h1
+      How to
+      %span.blue be a designer
+    %p A subjective design talk by Mike Borsare.
+
+    %p
+      %br
+      %h6
+        Boston, MA
+        %time
+          = File.mtime(__FILE__).strftime("%d.%m.%Y")

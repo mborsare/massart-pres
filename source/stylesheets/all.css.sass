@@ -1,37 +1,65 @@
 @import reveal.css
-
-//reveal theme:
-//@import beige
-//@import default
-@import night
-//@import serif
-//@import simple
-//@import sky
-
 @import prettify
+
+// reveal theme
+// @import beige
+// @import default
+// @import night
+@import night-mike
+// @import serif
+// @import simple
+// @import sky
+// @import league
+
+@import url(https://fonts.googleapis.com/css?family=Dosis:800,300,500)
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:700,300)
+
+body
+//   text-transform: uppercase
+  font-family: 'Oswald', sans-serif
+
+h1,
+h2,
+h3,
+  font-family: 'Dosis', sans-serif
+  font-weight: 800
 
 
 pre.prettyprint
+  background: rgba(255, 255, 255, 0.4)
   background-color: rgba(0, 0, 0, 0.05)
   border: 2px solid rgba(0, 0, 0, 0.1)
-  padding: 10px 10px
   border-radius: 10px
   overflow: auto
+  padding: 10px 10px
   word-wrap: break-word
-  background: rgba(255,255,255,0.4)
-h1.title
-  font-weight: bold
-  position: absolute
-  top: 30%
-  left: 25%
-.reveal
-  h1, h2, h3, h4, h5
-    font-family: "Libre Baskerville"
-    text-transform: none
-  section
-    font-family: "Fresca",sans-serif
 
-#intro
-  img
-    border: 0
-    box-shadow: none
+// h1.title
+//   font-weight: bold
+//   left: 25%
+//   position: absolute
+//   top: 30%
+
+
+
+// .reveal
+//   h1,
+//   h2,
+//   h3,
+//   h4,
+//   h5
+//     font-family: "Libre Baskerville"
+//     text-transform: none
+
+// section
+//   font-family: "Fresca", sans-serif
+
+img
+  border: 0
+  box-shadow: none
+
+section
+  display: flex
+  justify-content: center
+  flex-direction: column
